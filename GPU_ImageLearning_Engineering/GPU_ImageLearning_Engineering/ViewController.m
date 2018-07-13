@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "TYGPUImageVideoCameraViewController.h"
 #import "TYGPUImageViewViewController.h"
+#import "TYGPUImageSkinCareViewController.h"
 
 @interface ViewController ()<GPUImageMovieDelegate,GPUImageMovieWriterDelegate,GPUImageVideoCameraDelegate,UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic, strong) GPUImageVideoCamera *videocamera;//摄像
@@ -24,7 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 //    [self initButView];
-    _nameArr = [NSArray arrayWithObjects:@"视频",@"图片", nil];
+    _nameArr = [NSArray arrayWithObjects:@"视频",@"图片",@"美颜", nil];
     [self initTableView];
 }
 
@@ -59,6 +60,9 @@
         [self.navigationController pushViewController:vc animated:YES];
     }else if(indexPath.row == 1){
         TYGPUImageViewViewController *vc = [[TYGPUImageViewViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if(indexPath.row == 2){
+        TYGPUImageSkinCareViewController *vc = [TYGPUImageSkinCareViewController alloc];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

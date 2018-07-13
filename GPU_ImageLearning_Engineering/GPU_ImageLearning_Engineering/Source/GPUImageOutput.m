@@ -224,7 +224,9 @@ void reportAvailableMemoryForGPUImage(NSString *tag)
     
     cachedMaximumOutputSize = CGSizeZero;
     runSynchronouslyOnVideoProcessingQueue(^{
+        //将缓存加入到滤镜中
         [self setInputFramebufferForTarget:newTarget atIndex:textureLocation];
+        //将滤镜加入到数组中
         [targets addObject:newTarget];
         [targetTextureIndices addObject:[NSNumber numberWithInteger:textureLocation]];
         

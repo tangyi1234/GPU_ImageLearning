@@ -321,15 +321,18 @@
         return NO;
     }
     
-    runAsynchronouslyOnVideoProcessingQueue(^{        
+    runAsynchronouslyOnVideoProcessingQueue(^{
+        //遍历出每一个滤镜出来
         for (id<GPUImageInput> currentTarget in targets)
         {
             NSInteger indexOfObject = [targets indexOfObject:currentTarget];
             NSInteger textureIndexOfTarget = [[targetTextureIndices objectAtIndex:indexOfObject] integerValue];
-            
+            //这里开始的就是滤镜处理
             [currentTarget setCurrentlyReceivingMonochromeInput:NO];
             [currentTarget setInputSize:pixelSizeOfImage atIndex:textureIndexOfTarget];
+            //传入缓存加锁
             [currentTarget setInputFramebuffer:outputFramebuffer atIndex:textureIndexOfTarget];
+            //这里就是使用Open EL进行图片处理
             [currentTarget newFrameReadyAtTime:kCMTimeIndefinite atIndex:textureIndexOfTarget];
         }
         

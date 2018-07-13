@@ -197,6 +197,8 @@
 		A28ECEE420F5E28600730B9A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28ECEE320F5E28600730B9A /* QuartzCore.framework */; };
 		A2A5BCDA20F6119A00011FC8 /* TYGPUImageVideoCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A5BCD920F6119A00011FC8 /* TYGPUImageVideoCameraViewController.m */; };
 		A2A5BCDD20F6134000011FC8 /* TYGPUImageViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A5BCDC20F6134000011FC8 /* TYGPUImageViewViewController.m */; };
+		A2C95AAB20F8B242008C1661 /* TYGPUImageSkinCareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C95AAA20F8B242008C1661 /* TYGPUImageSkinCareViewController.m */; };
+		A2C95AAE20F8B341008C1661 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C95AAD20F8B341008C1661 /* GPUImageBeautifyFilter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -574,6 +576,10 @@
 		A2A5BCD920F6119A00011FC8 /* TYGPUImageVideoCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYGPUImageVideoCameraViewController.m; sourceTree = "<group>"; };
 		A2A5BCDB20F6134000011FC8 /* TYGPUImageViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYGPUImageViewViewController.h; sourceTree = "<group>"; };
 		A2A5BCDC20F6134000011FC8 /* TYGPUImageViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYGPUImageViewViewController.m; sourceTree = "<group>"; };
+		A2C95AA920F8B242008C1661 /* TYGPUImageSkinCareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYGPUImageSkinCareViewController.h; sourceTree = "<group>"; };
+		A2C95AAA20F8B242008C1661 /* TYGPUImageSkinCareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYGPUImageSkinCareViewController.m; sourceTree = "<group>"; };
+		A2C95AAC20F8B341008C1661 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		A2C95AAD20F8B341008C1661 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -624,6 +630,10 @@
 				A2A5BCD920F6119A00011FC8 /* TYGPUImageVideoCameraViewController.m */,
 				A2A5BCDB20F6134000011FC8 /* TYGPUImageViewViewController.h */,
 				A2A5BCDC20F6134000011FC8 /* TYGPUImageViewViewController.m */,
+				A2C95AA920F8B242008C1661 /* TYGPUImageSkinCareViewController.h */,
+				A2C95AAA20F8B242008C1661 /* TYGPUImageSkinCareViewController.m */,
+				A2C95AAC20F8B341008C1661 /* GPUImageBeautifyFilter.h */,
+				A2C95AAD20F8B341008C1661 /* GPUImageBeautifyFilter.m */,
 				A28ECC9F20F5DE9300730B9A /* Assets.xcassets */,
 				A28ECCA120F5DE9300730B9A /* LaunchScreen.storyboard */,
 				A28ECCA420F5DE9300730B9A /* Info.plist */,
@@ -1222,6 +1232,7 @@
 				A28ECE6020F5E19100730B9A /* GPUImageHistogramEqualizationFilter.m in Sources */,
 				A28ECEA420F5E19100730B9A /* GPUImageSobelEdgeDetectionFilter.m in Sources */,
 				A28ECE8020F5E19100730B9A /* GPUImageMovieComposition.m in Sources */,
+				A2C95AAB20F8B242008C1661 /* TYGPUImageSkinCareViewController.m in Sources */,
 				A28ECE5E20F5E19100730B9A /* GPUImageHighlightShadowTintFilter.m in Sources */,
 				A28ECE8720F5E19100730B9A /* GPUImageOutput.m in Sources */,
 				A28ECE7C20F5E19100730B9A /* GPUImageMosaicFilter.m in Sources */,
@@ -1248,6 +1259,7 @@
 				A28ECE7120F5E19100730B9A /* GPUImageLocalBinaryPatternFilter.m in Sources */,
 				A28ECEAB20F5E19100730B9A /* GPUImageStillCamera.m in Sources */,
 				A28ECE8920F5E19100730B9A /* GPUImageParallelCoordinateLineTransformFilter.m in Sources */,
+				A2C95AAE20F8B341008C1661 /* GPUImageBeautifyFilter.m in Sources */,
 				A28ECEC920F5E19100730B9A /* GPUImageMovieWriter.m in Sources */,
 				A28ECE8D20F5E19100730B9A /* GPUImagePixellatePositionFilter.m in Sources */,
 				A2A5BCDA20F6119A00011FC8 /* TYGPUImageVideoCameraViewController.m in Sources */,
