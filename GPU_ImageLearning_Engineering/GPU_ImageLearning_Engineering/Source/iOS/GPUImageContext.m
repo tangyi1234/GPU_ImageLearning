@@ -78,7 +78,7 @@ static void *openGLESContextQueueKey;
 - (void)useAsCurrentContext;
 {
     EAGLContext *imageProcessingContext = [self context];
-    if ([EAGLContext currentContext] != imageProcessingContext)
+    if ([EAGLContext currentContext] != imageProcessingContext)//上下文组中没有当前上下文，在上下文组中添加当前上下文。
     {
         [EAGLContext setCurrentContext:imageProcessingContext];
     }
@@ -245,6 +245,7 @@ static void *openGLESContextQueueKey;
     _sharegroup = sharegroup;
 }
 
+//创建Context上下文
 - (EAGLContext *)createContext;
 {
     EAGLContext *context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2 sharegroup:_sharegroup];

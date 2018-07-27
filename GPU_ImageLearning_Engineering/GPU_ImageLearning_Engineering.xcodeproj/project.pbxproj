@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A252EC6820FDD72C00DCF4FB /* TYResponsiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A252EC6720FDD72C00DCF4FB /* TYResponsiveViewController.m */; };
+		A252EC6B20FDD76B00DCF4FB /* TYResponsive.m in Sources */ = {isa = PBXBuildFile; fileRef = A252EC6A20FDD76B00DCF4FB /* TYResponsive.m */; };
+		A252EC6E20FDDD6100DCF4FB /* TYQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A252EC6D20FDDD6100DCF4FB /* TYQueue.m */; };
 		A28ECC9520F5DE9300730B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A28ECC9420F5DE9300730B9A /* AppDelegate.m */; };
 		A28ECC9820F5DE9300730B9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28ECC9720F5DE9300730B9A /* ViewController.m */; };
 		A28ECC9E20F5DE9300730B9A /* GPU_ImageLearning_Engineering.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A28ECC9C20F5DE9300730B9A /* GPU_ImageLearning_Engineering.xcdatamodeld */; };
@@ -202,6 +205,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A252EC6620FDD72C00DCF4FB /* TYResponsiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYResponsiveViewController.h; sourceTree = "<group>"; };
+		A252EC6720FDD72C00DCF4FB /* TYResponsiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYResponsiveViewController.m; sourceTree = "<group>"; };
+		A252EC6920FDD76B00DCF4FB /* TYResponsive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYResponsive.h; sourceTree = "<group>"; };
+		A252EC6A20FDD76B00DCF4FB /* TYResponsive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYResponsive.m; sourceTree = "<group>"; };
+		A252EC6C20FDDD6100DCF4FB /* TYQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYQueue.h; sourceTree = "<group>"; };
+		A252EC6D20FDDD6100DCF4FB /* TYQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYQueue.m; sourceTree = "<group>"; };
 		A28ECC9020F5DE9300730B9A /* GPU_ImageLearning_Engineering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPU_ImageLearning_Engineering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28ECC9320F5DE9300730B9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A28ECC9420F5DE9300730B9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -634,6 +643,12 @@
 				A2C95AAA20F8B242008C1661 /* TYGPUImageSkinCareViewController.m */,
 				A2C95AAC20F8B341008C1661 /* GPUImageBeautifyFilter.h */,
 				A2C95AAD20F8B341008C1661 /* GPUImageBeautifyFilter.m */,
+				A252EC6620FDD72C00DCF4FB /* TYResponsiveViewController.h */,
+				A252EC6720FDD72C00DCF4FB /* TYResponsiveViewController.m */,
+				A252EC6920FDD76B00DCF4FB /* TYResponsive.h */,
+				A252EC6A20FDD76B00DCF4FB /* TYResponsive.m */,
+				A252EC6C20FDDD6100DCF4FB /* TYQueue.h */,
+				A252EC6D20FDDD6100DCF4FB /* TYQueue.m */,
 				A28ECC9F20F5DE9300730B9A /* Assets.xcassets */,
 				A28ECCA120F5DE9300730B9A /* LaunchScreen.storyboard */,
 				A28ECCA420F5DE9300730B9A /* Info.plist */,
@@ -1137,6 +1152,7 @@
 				A28ECE9C20F5E19100730B9A /* GPUImageScreenBlendFilter.m in Sources */,
 				A28ECE9920F5E19100730B9A /* GPUImageRGBOpeningFilter.m in Sources */,
 				A28ECE7A20F5E19100730B9A /* GPUImageMissEtikateFilter.m in Sources */,
+				A252EC6820FDD72C00DCF4FB /* TYResponsiveViewController.m in Sources */,
 				A28ECE7F20F5E19100730B9A /* GPUImageMovie.m in Sources */,
 				A28ECEA020F5E19100730B9A /* GPUImageSingleComponentGaussianBlurFilter.m in Sources */,
 				A28ECEBE20F5E19100730B9A /* GPUImageUnsharpMaskFilter.m in Sources */,
@@ -1167,11 +1183,13 @@
 				A28ECE8520F5E19100730B9A /* GPUImageOpacityFilter.m in Sources */,
 				A28ECE4320F5E19100730B9A /* GPUImageDirectionalNonMaximumSuppressionFilter.m in Sources */,
 				A28ECE3820F5E19100730B9A /* GPUImageColorMatrixFilter.m in Sources */,
+				A252EC6B20FDD76B00DCF4FB /* TYResponsive.m in Sources */,
 				A28ECE9F20F5E19100730B9A /* GPUImageShiTomasiFeatureDetectionFilter.m in Sources */,
 				A28ECEB520F5E19100730B9A /* GPUImageTiltShiftFilter.m in Sources */,
 				A28ECE5320F5E19100730B9A /* GPUImageGammaFilter.m in Sources */,
 				A28ECE8F20F5E19100730B9A /* GPUImagePolarPixellateFilter.m in Sources */,
 				A28ECE8E20F5E19100730B9A /* GPUImagePoissonBlendFilter.m in Sources */,
+				A252EC6E20FDDD6100DCF4FB /* TYQueue.m in Sources */,
 				A28ECEA820F5E19100730B9A /* GPUImageSolidColorGenerator.m in Sources */,
 				A28ECE6520F5E19100730B9A /* GPUImageHueBlendFilter.m in Sources */,
 				A28ECE1F20F5E19100730B9A /* GLProgram.m in Sources */,
